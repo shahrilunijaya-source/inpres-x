@@ -1,0 +1,288 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]: Portal Rasmi Jabatan Pendaftaran Negara · Kementerian Dalam Negeri Malaysia
+    - generic [ref=e6]:
+      - link "Semak Status" [ref=e7] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/track
+      - link "Soalan Lazim" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/soalan-lazim
+      - link "Hubungi" [ref=e9] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/direktori-cawangan
+      - generic [ref=e10]: "|"
+      - generic [ref=e12]: BM
+  - banner [ref=e13]:
+    - link "Langkau ke kandungan utama" [ref=e14] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - link "Jata Negara — Kerajaan Malaysia" [ref=e17] [cursor=pointer]:
+          - /url: https://www.malaysia.gov.my
+          - img "Jata Negara — Lambang Kerajaan Malaysia" [ref=e18]
+        - link "InPreS Jabatan Pendaftaran Negara" [ref=e19] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001
+          - img "InPreS" [ref=e20]
+          - generic [ref=e21]: Jabatan Pendaftaran Negara
+      - navigation "Utama" [ref=e22]:
+        - link "Utama" [ref=e23] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001
+        - link "Mohon Dokumen" [ref=e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/apply
+        - link "Semak Status" [ref=e25] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/track
+        - link "Perkhidmatan" [ref=e26] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/perkhidmatan
+      - generic [ref=e27]:
+        - link "Mohon" [ref=e28] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/apply
+        - link "Log Masuk Pegawai" [ref=e29] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/system/login
+  - generic [ref=e32]:
+    - generic [ref=e33]:
+      - generic [ref=e34]: Jabatan Pendaftaran Negara · Portal InPreS
+      - heading "Mohon dokumen JPN. Tiada barisan. Tiada borang kertas." [level=1] [ref=e36]:
+        - text: Mohon dokumen JPN.
+        - generic [ref=e37]: Tiada barisan. Tiada borang kertas.
+      - paragraph [ref=e39]: Daftar kelahiran, perkahwinan, atau MyKad secara dalam talian. Imbas IC dengan AI untuk auto-isi medan utama, jejak status secara langsung.
+      - generic [ref=e40]:
+        - link "Mulakan Permohonan" [ref=e41] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/apply
+          - text: Mulakan Permohonan
+          - img [ref=e42]
+        - link "Semak Status Permohonan" [ref=e44] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/track
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - img [ref=e47]
+          - text: Disahkan KDN
+        - generic [ref=e50]:
+          - img [ref=e51]
+          - text: Auto-isi AI
+        - generic [ref=e53]:
+          - img [ref=e54]
+          - text: Dilindungi PDPA 2010
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - generic [ref=e60]: Aktiviti Sistem
+          - generic [ref=e61]: Live
+        - generic [ref=e62]:
+          - generic [ref=e65]: Permohonan baharu diterima
+          - generic [ref=e66]: 1 jam lalu
+        - generic [ref=e67]:
+          - generic [ref=e70]: Permohonan baharu diterima
+          - generic [ref=e71]: 1 jam lalu
+        - generic [ref=e72]:
+          - generic [ref=e75]: Permohonan baharu diterima
+          - generic [ref=e76]: 1 jam lalu
+        - generic [ref=e77]:
+          - generic [ref=e80]: Permohonan baharu diterima
+          - generic [ref=e81]: 3 jam lalu
+        - generic [ref=e82]:
+          - generic [ref=e85]: Permohonan baharu diterima
+          - generic [ref=e86]: 4 jam lalu
+      - generic [ref=e87]:
+        - generic [ref=e88]:
+          - generic [ref=e89]: Sedang diproses
+          - generic [ref=e90]: "65"
+          - generic [ref=e91]: oleh pegawai JPN
+        - generic [ref=e92]:
+          - generic [ref=e93]: Telah selesai
+          - generic [ref=e94]: "33"
+          - generic [ref=e95]: diluluskan / dikeluarkan
+        - generic [ref=e96]:
+          - generic [ref=e97]: Diproses hari ini
+          - generic [ref=e98]: "16"
+          - generic [ref=e99]: permohonan baharu
+        - generic [ref=e100]:
+          - generic [ref=e101]: SLA dipenuhi
+          - generic [ref=e102]: 58%
+          - generic [ref=e103]: dalam tempoh sasaran
+  - generic [ref=e105]:
+    - generic [ref=e106]:
+      - generic [ref=e107]: Mohon Dalam Talian
+      - heading "Tiga dokumen. Satu portal." [level=2] [ref=e109]
+    - generic [ref=e110]:
+      - link "Sijil Kelahiran Untuk bayi baharu lahir atau salinan sijil yang hilang. Mohon · 5 hari bekerja" [ref=e111] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/apply?type=birth
+        - img [ref=e113]
+        - heading "Sijil Kelahiran" [level=4] [ref=e116]
+        - paragraph [ref=e117]: Untuk bayi baharu lahir atau salinan sijil yang hilang.
+        - generic [ref=e118]:
+          - text: Mohon · 5 hari bekerja
+          - img [ref=e119]
+      - link "Sijil Perkahwinan Pendaftaran perkahwinan atau pengeluaran semula sijil. Mohon · 7 hari bekerja" [ref=e121] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/apply?type=marriage
+        - img [ref=e123]
+        - heading "Sijil Perkahwinan" [level=4] [ref=e125]
+        - paragraph [ref=e126]: Pendaftaran perkahwinan atau pengeluaran semula sijil.
+        - generic [ref=e127]:
+          - text: Mohon · 7 hari bekerja
+          - img [ref=e128]
+      - link "MyKad Pembaharuan, penggantian, atau permohonan kali pertama. Mohon · 14 hari bekerja" [ref=e130] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/apply?type=mykad
+        - img [ref=e132]
+        - heading "MyKad" [level=4] [ref=e134]
+        - paragraph [ref=e135]: Pembaharuan, penggantian, atau permohonan kali pertama.
+        - generic [ref=e136]:
+          - text: Mohon · 14 hari bekerja
+          - img [ref=e137]
+  - generic [ref=e140]:
+    - generic [ref=e141]:
+      - generic [ref=e142]:
+        - generic [ref=e143]: Statistik Perkhidmatan
+        - heading "Sistem yang sentiasa hidup." [level=2] [ref=e145]
+      - link "Semak permohonan anda" [ref=e146] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/track
+        - text: Semak permohonan anda
+        - img [ref=e147]
+    - generic [ref=e149]:
+      - generic [ref=e150]:
+        - generic [ref=e151]: Sedang diproses
+        - generic [ref=e152]: "65"
+        - generic [ref=e153]: dalam tapisan pegawai
+      - generic [ref=e154]:
+        - generic [ref=e155]: Telah selesai
+        - generic [ref=e156]: "33"
+        - generic [ref=e157]: diluluskan / dikeluarkan
+      - generic [ref=e158]:
+        - generic [ref=e159]: Peringkat tapisan
+        - generic [ref=e160]: "5"
+        - generic [ref=e161]: bagi setiap permohonan
+      - generic [ref=e162]:
+        - generic [ref=e163]: Akses
+        - generic [ref=e164]: 24/7
+        - generic [ref=e165]: semak status bila-bila masa
+        - generic [ref=e166]: Tidak terikat waktu pejabat
+  - generic [ref=e168]:
+    - generic [ref=e169]:
+      - generic [ref=e170]: Perkhidmatan JPN
+      - heading "Apa yang anda perlukan?" [level=2] [ref=e172]
+    - generic [ref=e173]:
+      - link "Kelahiran Pendaftaran kelahiran dan sijil kelahiran. Buka" [ref=e174] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/apply?type=birth
+        - img [ref=e176]
+        - heading "Kelahiran" [level=4] [ref=e179]
+        - paragraph [ref=e180]: Pendaftaran kelahiran dan sijil kelahiran.
+        - generic [ref=e181]:
+          - text: Buka
+          - img [ref=e182]
+      - link "Kad Pengenalan MyKad, MyKid, MyTentera dan penggantian. Buka" [ref=e184] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/apply?type=mykad
+        - img [ref=e186]
+        - heading "Kad Pengenalan" [level=4] [ref=e188]
+        - paragraph [ref=e189]: MyKad, MyKid, MyTentera dan penggantian.
+        - generic [ref=e190]:
+          - text: Buka
+          - img [ref=e191]
+      - link "Perkahwinan Pendaftaran perkahwinan bukan Islam. Buka" [ref=e193] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/apply?type=marriage
+        - img [ref=e195]
+        - heading "Perkahwinan" [level=4] [ref=e197]
+        - paragraph [ref=e198]: Pendaftaran perkahwinan bukan Islam.
+        - generic [ref=e199]:
+          - text: Buka
+          - img [ref=e200]
+      - link "Perceraian Pendaftaran perceraian dan perakuan. Belum tersedia" [ref=e202] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e204]
+        - heading "Perceraian" [level=4] [ref=e207]
+        - paragraph [ref=e208]: Pendaftaran perceraian dan perakuan.
+        - generic [ref=e209]:
+          - text: Belum tersedia
+          - img [ref=e210]
+      - link "Kematian Pendaftaran kematian dan sijil kematian. Belum tersedia" [ref=e213] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e215]
+        - heading "Kematian" [level=4] [ref=e218]
+        - paragraph [ref=e219]: Pendaftaran kematian dan sijil kematian.
+        - generic [ref=e220]:
+          - text: Belum tersedia
+          - img [ref=e221]
+      - link "Pengangkatan Pendaftaran anak angkat. Belum tersedia" [ref=e224] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e226]
+        - heading "Pengangkatan" [level=4] [ref=e231]
+        - paragraph [ref=e232]: Pendaftaran anak angkat.
+        - generic [ref=e233]:
+          - text: Belum tersedia
+          - img [ref=e234]
+      - link "Warganegara Kewarganegaraan dan taraf permastautin. Belum tersedia" [ref=e237] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e239]
+        - heading "Warganegara" [level=4] [ref=e241]
+        - paragraph [ref=e242]: Kewarganegaraan dan taraf permastautin.
+        - generic [ref=e243]:
+          - text: Belum tersedia
+          - img [ref=e244]
+      - link "Semak Status Jejak permohonan dalam talian anda. Buka" [ref=e247] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/track
+        - img [ref=e249]
+        - heading "Semak Status" [level=4] [ref=e252]
+        - paragraph [ref=e253]: Jejak permohonan dalam talian anda.
+        - generic [ref=e254]:
+          - text: Buka
+          - img [ref=e255]
+  - contentinfo [ref=e257]:
+    - generic [ref=e258]:
+      - generic [ref=e259]:
+        - generic [ref=e260]:
+          - generic [ref=e261]:
+            - img "InPreS" [ref=e262]
+            - generic [ref=e263]:
+              - generic [ref=e264]: Portal InPreS
+              - text: Jabatan Pendaftaran Negara
+          - paragraph [ref=e266]: Platform permohonan dokumen JPN dalam talian di bawah Kementerian Dalam Negeri. Mohon, jejak, terima — tiada barisan, tiada borang kertas.
+          - paragraph [ref=e267]: "Kompleks Kementerian Dalam Negeri, No. 20 Persiaran Perdana, Presint 2, 62551 Putrajaya, Malaysia. · Talian: 03-8000 8000"
+        - generic [ref=e268]:
+          - heading "Perkhidmatan" [level=5] [ref=e269]
+          - list [ref=e270]:
+            - listitem [ref=e271]:
+              - link "Mohon Dokumen" [ref=e272] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/apply
+            - listitem [ref=e273]:
+              - link "Semak Status" [ref=e274] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/track
+            - listitem [ref=e275]:
+              - link "Kelahiran" [ref=e276] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/apply?type=birth
+            - listitem [ref=e277]:
+              - link "Perkahwinan" [ref=e278] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/apply?type=marriage
+            - listitem [ref=e279]:
+              - link "Kad Pengenalan" [ref=e280] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/apply?type=mykad
+        - generic [ref=e281]:
+          - heading "Maklumat" [level=5] [ref=e282]
+          - list [ref=e283]:
+            - listitem [ref=e284]:
+              - link "Pengenalan" [ref=e285] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/pengenalan
+            - listitem [ref=e286]:
+              - link "Soalan Lazim" [ref=e287] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/soalan-lazim
+            - listitem [ref=e288]:
+              - link "Direktori Cawangan" [ref=e289] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/direktori-cawangan
+            - listitem [ref=e290]:
+              - link "Log Masuk Pegawai" [ref=e291] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/system/login
+        - generic [ref=e292]:
+          - heading "Pautan Luar" [level=5] [ref=e293]
+          - list [ref=e294]:
+            - listitem [ref=e295]:
+              - link "MyGovernment" [ref=e296] [cursor=pointer]:
+                - /url: https://www.malaysia.gov.my
+            - listitem [ref=e297]:
+              - link "Kementerian Dalam Negeri" [ref=e298] [cursor=pointer]:
+                - /url: https://www.moha.gov.my
+            - listitem [ref=e299]:
+              - link "jpn.gov.my" [ref=e300] [cursor=pointer]:
+                - /url: https://www.jpn.gov.my
+      - generic [ref=e301]:
+        - generic [ref=e304]: © 2026 Kerajaan Malaysia · Jabatan Pendaftaran Negara · Prototaip
+        - generic [ref=e305]:
+          - link "Dasar Privasi" [ref=e306] [cursor=pointer]:
+            - /url: "#"
+          - link "Dasar Keselamatan" [ref=e307] [cursor=pointer]:
+            - /url: "#"
+          - generic [ref=e308]: v0.1 · inpres-x

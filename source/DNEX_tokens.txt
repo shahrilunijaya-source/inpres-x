@@ -1,0 +1,70 @@
+DNEX                                                                              Design token reference
+
+globals.css -- Design Tokens
+
+Design tokens dari globals.css yang dibekalkan DNEX
+
+Imports
+
+  tailwindcss , tw-animate-css , shadcn/tailwind.css
+
+Theme config (@theme inline)
+
+  --font-heading  --font-mono = JetBrains Mono · body = Inter (sans)
+ Radius scale: sm 0.6× · md 0.8× · lg 1× · xl 1.4× · 2xl 1.8× · 3xl 2.2× · 4xl 2.6× (base 0.625rem)
+ Colour aliases --color-*  root vars (background, foreground, card, popover, primary, secondary, muted,
+ accent, destructive, border, input, ring, chart-1..5, sidebar group)
+
+Sample typography (heading: JetBrains Mono · body: Inter)
+
+Aa Bb Cc 123 Display 36 / 700
+
+H1 28 / 600     Heading mono
+
+H2 22 / 600     Section header
+H3 18 / 500
+Body 16 / 400   Sub heading label
+Small 13 / 400
+Fonts           The quick brown fox jumps over the lazy dog. Body teks guna sans-serif.
+
+                Caption / muted text dalam sans-serif
+                Heading: JetBrains Mono · Body: Inter
+
+Radius 10px     sm md lg 2xl
+
+:root (light mode)
+
+background   foreground  primary        secondary         muted       muted-fg    destructive       border / input
+    #FFFFFF     #0A0A0A  #171717           #F5F5F5        #F5F5F5       #737373      #E7000B             #E5E5E5
+
+      ring
+    #A1A1A1
+
+Chart ramp (chart-1  chart-5)
+
+chart-1         chart-2  chart-3        chart-4           chart-5
+#D4D4D4         #737373  #525252        #404040           #262626
+
+.dark (dark mode)
+
+background   foreground card / popover  primary     secondary/muted
+    #262626                             #EDEDED              #434343
+                #FAFAFA  #404040
+
+Borders as translucent white oklch(1 0 0 / 10%)
+
+Theme accents (data-theme-color)
+
+neutral         ocean    emerald         violet           amber
+#171717         #1882C0   #319D64       #875CC6           #D69C03
+
+Each overrides: primary, primary-foreground, ring, sidebar-primary, sidebar-ring
+
+Base + utilities layer
+
+ Global border + outline-ring on all elements
+ body: background + foreground colours
+  .scrollbar-hide -- hides scrollbar, scroll still works
+
+                DNEX · globals.css yang dibekalkan DNEX (shadcn/tailwind default, OKLCH  sRGB hex)
+

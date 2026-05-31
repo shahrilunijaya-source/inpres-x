@@ -1,0 +1,199 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]: Portal Rasmi Jabatan Pendaftaran Negara · Kementerian Dalam Negeri Malaysia
+    - generic [ref=e6]:
+      - link "Semak Status" [ref=e7] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/track
+      - link "Soalan Lazim" [ref=e8] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/soalan-lazim
+      - link "Hubungi" [ref=e9] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001/direktori-cawangan
+      - generic [ref=e10]: "|"
+      - generic [ref=e12]: BM
+  - banner [ref=e13]:
+    - link "Langkau ke kandungan utama" [ref=e14] [cursor=pointer]:
+      - /url: "#main"
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - link "Jata Negara — Kerajaan Malaysia" [ref=e17] [cursor=pointer]:
+          - /url: https://www.malaysia.gov.my
+          - img "Jata Negara — Lambang Kerajaan Malaysia" [ref=e18]
+        - link "InPreS Jabatan Pendaftaran Negara" [ref=e19] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001
+          - img "InPreS" [ref=e20]
+          - generic [ref=e21]: Jabatan Pendaftaran Negara
+      - navigation "Utama" [ref=e22]:
+        - link "Utama" [ref=e23] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001
+        - link "Mohon Dokumen" [ref=e24] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/apply
+        - link "Semak Status" [ref=e25] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/track
+        - link "Perkhidmatan" [ref=e26] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/perkhidmatan
+      - generic [ref=e27]:
+        - link "Mohon" [ref=e28] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/apply
+        - link "Log Masuk Pegawai" [ref=e29] [cursor=pointer]:
+          - /url: http://127.0.0.1:8001/system/login
+  - generic [ref=e31]:
+    - generic [ref=e32]: Permohonan
+    - heading "Mohon Dokumen JPN" [level=1] [ref=e34]
+    - paragraph [ref=e35]: Imbas IC dengan AI — sistem mendapatkan rekod anda terus dari Pendaftaran Negara.
+  - generic [ref=e38]:
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e41]: Jenis Dokumen
+        - generic [ref=e42]:
+          - generic [ref=e43] [cursor=pointer]:
+            - radio "Sijil Kelahiran" [checked] [ref=e44]
+            - generic [ref=e45]: Sijil Kelahiran
+          - generic [ref=e46] [cursor=pointer]:
+            - radio "Sijil Perkahwinan" [ref=e47]
+            - generic [ref=e48]: Sijil Perkahwinan
+          - generic [ref=e49] [cursor=pointer]:
+            - radio "MyKAD" [ref=e50]
+            - generic [ref=e51]: MyKAD
+        - generic [ref=e52]:
+          - button "Sijil Perceraian Belum tersedia" [ref=e53] [cursor=pointer]:
+            - img [ref=e54]
+            - generic [ref=e56]: Sijil Perceraian
+            - generic [ref=e57]: Belum tersedia
+          - button "Sijil Kematian Belum tersedia" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e61]: Sijil Kematian
+            - generic [ref=e62]: Belum tersedia
+          - button "Pengangkatan Belum tersedia" [ref=e63] [cursor=pointer]:
+            - img [ref=e64]
+            - generic [ref=e66]: Pengangkatan
+            - generic [ref=e67]: Belum tersedia
+          - button "Warganegara Belum tersedia" [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e71]: Warganegara
+            - generic [ref=e72]: Belum tersedia
+      - generic [ref=e73]:
+        - generic [ref=e80]:
+          - paragraph [ref=e81]: Bahagian C & D · Ibu & Bapa
+          - paragraph [ref=e82]: Masukkan No. Kad Pengenalan. AI mendapatkan rekod terus dari Pendaftaran Negara — nama, tarikh lahir dan alamat diisi automatik.
+          - generic [ref=e83]:
+            - generic [ref=e84]:
+              - generic [ref=e85]: No. KP Ibu
+              - textbox "000000-00-0000" [ref=e86]
+            - button "Dapatkan rekod" [ref=e87] [cursor=pointer]:
+              - img [ref=e88]
+              - text: Dapatkan rekod
+          - paragraph [ref=e93]:
+            - text: "Cuba IC contoh:"
+            - button "920418-10-5566" [ref=e94] [cursor=pointer]
+          - generic [ref=e95]:
+            - generic [ref=e96]:
+              - generic [ref=e97]: No. KP Bapa (jika berkenaan)
+              - textbox "000000-00-0000" [ref=e98]
+            - button "Dapatkan rekod" [ref=e99] [cursor=pointer]:
+              - img [ref=e100]
+              - text: Dapatkan rekod
+          - paragraph [ref=e105]:
+            - text: "Cuba IC contoh:"
+            - button "761112-10-3285" [ref=e106] [cursor=pointer]
+        - generic [ref=e108]:
+          - generic [ref=e109]: Langkah 1 / 5
+          - button "Seterusnya" [ref=e110] [cursor=pointer]:
+            - text: Seterusnya
+            - img [ref=e111]
+    - generic [ref=e113]:
+      - generic [ref=e115]: Permohonan Pintar
+      - generic [ref=e117]:
+        - generic [ref=e118]:
+          - generic [ref=e119]: "1"
+          - generic [ref=e120]:
+            - heading "Ibu & Bapa" [level=4] [ref=e121]
+            - paragraph [ref=e122]: Masukkan No. KP — rekod ditarik automatik dari Pendaftaran Negara.
+        - generic [ref=e123]:
+          - generic [ref=e124]: "2"
+          - generic [ref=e125]:
+            - heading "Maklumat Bayi" [level=4] [ref=e126]
+            - paragraph [ref=e127]: Nama, jantina, tarikh & waktu lahir, berat, tempat kelahiran.
+        - generic [ref=e128]:
+          - generic [ref=e129]: "3"
+          - generic [ref=e130]:
+            - heading "Penyambut Kelahiran" [level=4] [ref=e131]
+            - paragraph [ref=e132]: Doktor / bidan / hospital — boleh auto-isi dari notifikasi hospital.
+        - generic [ref=e133]:
+          - generic [ref=e134]: "4"
+          - generic [ref=e135]:
+            - heading "Pemberitahu & Pengesahan" [level=4] [ref=e136]
+            - paragraph [ref=e137]: Hubungan dengan bayi, hubungi, dan akuan kebenaran maklumat.
+        - generic [ref=e138]:
+          - generic [ref=e139]: "5"
+          - generic [ref=e140]:
+            - heading "Semakan & Hantar" [level=4] [ref=e141]
+            - paragraph [ref=e142]: Semak semua maklumat, kemudian hantar permohonan.
+      - generic [ref=e143]:
+        - img [ref=e145]
+        - generic [ref=e148]:
+          - generic [ref=e149]: Data anda dilindungi
+          - generic [ref=e150]: Semua maklumat dikendalikan mengikut Akta Perlindungan Data Peribadi (PDPA) 2010.
+  - contentinfo [ref=e151]:
+    - generic [ref=e152]:
+      - generic [ref=e153]:
+        - generic [ref=e154]:
+          - generic [ref=e155]:
+            - img "InPreS" [ref=e156]
+            - generic [ref=e157]:
+              - generic [ref=e158]: Portal InPreS
+              - text: Jabatan Pendaftaran Negara
+          - paragraph [ref=e160]: Platform permohonan dokumen JPN dalam talian di bawah Kementerian Dalam Negeri. Mohon, jejak, terima — tiada barisan, tiada borang kertas.
+          - paragraph [ref=e161]: "Kompleks Kementerian Dalam Negeri, No. 20 Persiaran Perdana, Presint 2, 62551 Putrajaya, Malaysia. · Talian: 03-8000 8000"
+        - generic [ref=e162]:
+          - heading "Perkhidmatan" [level=5] [ref=e163]
+          - list [ref=e164]:
+            - listitem [ref=e165]:
+              - link "Mohon Dokumen" [ref=e166] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/apply
+            - listitem [ref=e167]:
+              - link "Semak Status" [ref=e168] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/track
+            - listitem [ref=e169]:
+              - link "Kelahiran" [ref=e170] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/apply?type=birth
+            - listitem [ref=e171]:
+              - link "Perkahwinan" [ref=e172] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/apply?type=marriage
+            - listitem [ref=e173]:
+              - link "Kad Pengenalan" [ref=e174] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/apply?type=mykad
+        - generic [ref=e175]:
+          - heading "Maklumat" [level=5] [ref=e176]
+          - list [ref=e177]:
+            - listitem [ref=e178]:
+              - link "Pengenalan" [ref=e179] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/pengenalan
+            - listitem [ref=e180]:
+              - link "Soalan Lazim" [ref=e181] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/soalan-lazim
+            - listitem [ref=e182]:
+              - link "Direktori Cawangan" [ref=e183] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/direktori-cawangan
+            - listitem [ref=e184]:
+              - link "Log Masuk Pegawai" [ref=e185] [cursor=pointer]:
+                - /url: http://127.0.0.1:8001/system/login
+        - generic [ref=e186]:
+          - heading "Pautan Luar" [level=5] [ref=e187]
+          - list [ref=e188]:
+            - listitem [ref=e189]:
+              - link "MyGovernment" [ref=e190] [cursor=pointer]:
+                - /url: https://www.malaysia.gov.my
+            - listitem [ref=e191]:
+              - link "Kementerian Dalam Negeri" [ref=e192] [cursor=pointer]:
+                - /url: https://www.moha.gov.my
+            - listitem [ref=e193]:
+              - link "jpn.gov.my" [ref=e194] [cursor=pointer]:
+                - /url: https://www.jpn.gov.my
+      - generic [ref=e195]:
+        - generic [ref=e198]: © 2026 Kerajaan Malaysia · Jabatan Pendaftaran Negara · Prototaip
+        - generic [ref=e199]:
+          - link "Dasar Privasi" [ref=e200] [cursor=pointer]:
+            - /url: "#"
+          - link "Dasar Keselamatan" [ref=e201] [cursor=pointer]:
+            - /url: "#"
+          - generic [ref=e202]: v0.1 · inpres-x

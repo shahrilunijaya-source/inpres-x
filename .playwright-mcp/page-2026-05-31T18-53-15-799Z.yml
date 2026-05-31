@@ -1,0 +1,49 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: InPreS
+      - generic [ref=e8]: RUANG PEGAWAI · v1
+    - generic [ref=e9]:
+      - heading "Dibina untuk meluluskan. Direka untuk dikeluarkan." [level=2] [ref=e10]:
+        - generic [ref=e11]: Dibina untuk
+        - generic [ref=e12]: meluluskan.
+        - generic [ref=e13]: Direka untuk
+        - generic [ref=e14]: dikeluarkan.
+      - paragraph [ref=e16]: Ruang kerja Pegawai Pendaftaran Negara. Tenang. Padat. Decisif. Setiap permohonan, satu klik daripada selesai.
+      - generic [ref=e17]:
+        - generic [ref=e18]: Disahkan.
+        - generic [ref=e19]: Diluluskan.
+        - generic [ref=e20]: Dikeluarkan.
+    - generic [ref=e21]:
+      - generic [ref=e22]: Jabatan Pendaftaran Negara · KDN
+      - generic [ref=e23]: Sesi disulitkan TLS 1.3
+  - generic [ref=e26]:
+    - generic [ref=e28]:
+      - generic [ref=e29]: Akses Pegawai
+      - heading "Log masuk." [level=1] [ref=e30]: Log masuk.
+    - paragraph [ref=e32]: Masukkan emel rasmi JPN dan kata laluan anda untuk meneruskan.
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e35]: Emel JPN
+        - textbox "pegawai@jpn.gov.my" [active] [ref=e36]: demo@jpn.gov.my
+      - generic [ref=e37]:
+        - generic [ref=e38]: Kata Laluan
+        - generic [ref=e39]:
+          - textbox "••••••••" [ref=e40]: password
+          - button [ref=e41] [cursor=pointer]:
+            - img [ref=e42]
+      - generic [ref=e45]:
+        - generic [ref=e46] [cursor=pointer]:
+          - checkbox "Ingat saya" [ref=e47]
+          - generic [ref=e48]: Ingat saya
+        - link "Lupa kata laluan?" [ref=e49] [cursor=pointer]:
+          - /url: "#"
+      - button "Log Masuk" [ref=e50] [cursor=pointer]:
+        - text: Log Masuk
+        - img [ref=e51]
+    - generic [ref=e53]:
+      - button "Lihat akaun demo" [ref=e54] [cursor=pointer]:
+        - img [ref=e55]
+        - text: Lihat akaun demo
+      - link "← Portal awam" [ref=e58] [cursor=pointer]:
+        - /url: http://127.0.0.1:8001
