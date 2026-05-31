@@ -96,7 +96,7 @@
                     <ul>
                         <li><a href="https://www.malaysia.gov.my" target="_blank" rel="noopener">MyGovernment</a></li>
                         <li><a href="https://www.moha.gov.my" target="_blank" rel="noopener">Kementerian Dalam Negeri</a></li>
-                        <li><a href="https://www.jpn.gov.my" target="_blank" rel="noopener">jpn.gov.my</a></li>
+                        <li><a href="https://www.jpn.gov.my" target="_blank" rel="noopener">Jabatan Pendaftaran Negara</a></li>
                     </ul>
                 </div>
             </div>

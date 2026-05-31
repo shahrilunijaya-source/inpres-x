@@ -36,7 +36,7 @@
             <ul class="space-y-2">
                 <li><a href="https://www.malaysia.gov.my" target="_blank" rel="noopener" class="hover:underline">MyGov — Portal Rasmi Kerajaan</a></li>
                 <li><a href="https://www.moha.gov.my" target="_blank" rel="noopener" class="hover:underline">Kementerian Dalam Negeri</a></li>
-                <li><a href="https://www.jpn.gov.my" target="_blank" rel="noopener" class="hover:underline">jpn.gov.my</a></li>
+                <li><a href="https://www.jpn.gov.my" target="_blank" rel="noopener" class="hover:underline">Jabatan Pendaftaran Negara</a></li>
             </ul>
         </div>
     </div>
